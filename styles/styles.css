@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+/* shared styles  */
+*{
+    margin: 0;
+    padding: 0;
+}
+.font-inter{
+    font-family: "Inter", serif;
+}
+.font-fleur{
+    font-family: "Fleur De Leah", cursive;
+}
+.doc-body{
+    background: rgb(17, 17, 17);
+}
+.primary-color{
+    color: rgb(230, 83, 60);
+}
+.bg-primary-color{
+    background-color: rgb(230, 83, 60);
+    color: white;
+}
+
+/* navbar style  */
+.navbar, .page-links{
+    display: flex;
+}
+.hamburg-menu{
+    display: none;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 80px;
+}
+.page-links{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 10px 0 10px 3px;
+}
+.nav-lists{
+    list-style: none;  
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 30px;
+    font-weight: 400;
+}
+.main-title{ 
+   font-size: 2rem;
+   font-weight: bold;
+   font-style: italic;
+}
+.home-btn{
+    padding: 8px 20px 8px 20px;
+    border-radius: 46px;
+    font-weight: 600;
+}
+
+
+/* responsive mobile  */
+@media screen and (max-width:576px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;   
+    }
+    .page-links{
+        display: none;
+    }
+    .hamburg-menu{     
+        display: block;
+    }
+    .hamburg-menu img{
+        width: 20px;
+        height: 20px;
+        filter: invert(100%);     
+    }
+}
