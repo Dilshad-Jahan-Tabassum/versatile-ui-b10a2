@@ -140,14 +140,39 @@
     padding: 10px;
     margin-left: 240px;
     margin-top: -380px;
-    justify-items: center;
-    
+    justify-items: center;   
 }
 .btn-number-2{
     font-size: 2.5rem;
     font-weight: 900;
 }
 
+/* change habit styles  */
+.change-habits{
+    margin: 180px;
+}
+.title-container{
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+.image-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-image{
+    width: 230px;
+}
+.gym-image{
+    padding: 10px 20px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.image-description{
+    text-align: center;
+}
 
 /* responsive mobile  */
 @media screen and (max-width:576px) {
@@ -171,12 +196,10 @@
     .banner{
         flex-direction: column;
         margin: 20px;
-        /* width: 350px;
-        border: 1px solid red; */
     }
     .text-body{
         width: 270px;
-        /* border: 1px solid rebeccapurple; */
+       
     }
     .banner-title{
         Font-weight: 900;
@@ -228,4 +251,30 @@
         margin-top: -200px;
         justify-items: center;
     }
+    .change-habits{
+        margin: 400px 20px;      
+    }
+    .title-container{
+        width: 280px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .image-container{
+        margin: 20px;
+        flex-direction: column;
+    }
+    .card-image{
+        width: 230px;  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+    .gym-image{ 
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+    }
+
 }
