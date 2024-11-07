@@ -34,7 +34,7 @@
     display: flex;
 }
 /* .play-icon */
-.hamburg-menu, .join-btn-2{
+.hamburg-menu, .join-btn-2, .img-run{
     display: none;
 }
 .navbar{
@@ -135,7 +135,7 @@
     border-radius: 12px;
     backdrop-filter: blur(5px);
     background: rgba(255, 255, 255, 0.1);
-    width: 170px;
+    width: 180px;
     height: 90px;
     padding: 10px;
     margin-left: 240px;
@@ -149,7 +149,8 @@
 
 /* change habit styles  */
 .change-habits{
-    margin: 180px;
+    margin: 180px 80px 100px 80px;
+    /* border: 1px solid red; */
 }
 .title-container{
     margin: 0 auto;
@@ -174,6 +175,43 @@
     text-align: center;
 }
 
+/* run extra mile styles */
+.run-miles{
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+}
+.miles-text-container{
+    width: 440px;
+    padding: 40px 55px;
+}
+.miles-text-container .miles-title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.miles-text-container .miles-description{
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+.run-join-btn{
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    margin-right: 10px;
+}
+.run-mile-img-container .img-run2{
+    padding: 30px;
+    width: 365px;
+    border-radius: 18px;
+}
+
 /* responsive mobile  */
 @media screen and (max-width:576px) {
     .navbar{
@@ -181,11 +219,11 @@
         justify-content: space-between;
         margin: 20px;   
     }
-    .page-links, .join-btn{
+    .page-links, .join-btn, .img-run2{
         display: none;
     }
     /* .play-icon */
-    .hamburg-menu, .join-btn-2 {     
+    .hamburg-menu, .join-btn-2, .img-run {     
         display: block;
     }
     .hamburg-menu img{
@@ -199,7 +237,6 @@
     }
     .text-body{
         width: 270px;
-       
     }
     .banner-title{
         Font-weight: 900;
@@ -244,7 +281,7 @@
         height: 30px;
     }
     .img-btn-2{
-        width: 130px;
+        width: 140px;
         height: 60px;
         padding: 10px 0;
         margin-left: 150px;
@@ -252,7 +289,7 @@
         justify-items: center;
     }
     .change-habits{
-        margin: 400px 20px;      
+        margin: 400px 20px 100px;      
     }
     .title-container{
         width: 280px;
@@ -275,6 +312,40 @@
         width: 130px;
         height: 130px;
         border-radius: 50%;
+    }
+    .run-miles{
+        margin: 20px;
+        width: 280px;
+        flex-direction: column;
+    }
+    .miles-text-container{
+        width: 250px;
+        padding: 15px 15px 0 15px;
+        
+    }
+    .miles-text-container .miles-title{
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .miles-text-container .miles-description{
+        font-size: 0.8rem;
+        font-weight: 400; 
+    }
+    .run-join-btn{
+        width: 240px;
+        padding: 16px 40px 16px 40px;
+        border-radius: 42px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        border: none;
+        
+    }
+    .run-mile-img-container .img-run{
+        border-radius: 18px; 
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-bottom: 30px;
+        width: 240px;     
     }
 
 }
