@@ -215,6 +215,87 @@
     width: 365px;
     border-radius: 18px;
 }
+/* bmi calculator  */
+    .bmi-calc{
+        margin-top: 80px;
+    }
+    .bmi-text{
+        text-align: center;
+    }
+    .bmi-text h3{
+        font-size: 3rem;
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+    .bmi-text p{
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+    .calculator-section{
+        margin-top: 80px;
+        background: rgb(34, 34, 34);
+        display: flex;
+        justify-content: space-between;
+        padding: 54px 190px;
+    }
+    .calculator-section h4{
+        font-size: 1.8rem;
+        font-weight: 900;
+    }
+    .calculator-section table{
+        margin-top: 50px;
+        border-collapse: collapse;
+    }
+    th{
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    td{
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    td,th{
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 8px;
+    }
+    .form-section h3{
+        font-size: 1.8rem;
+        font-weight: 900;
+        margin-bottom: 14px;
+    }
+    .form-section p{
+        margin-bottom: 34px;
+    }
+    .form-section input{
+        width: 250px;
+        height: 30px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        border: none;
+        margin: 5px;
+        padding: 5px;
+    }
+    .form-section select{
+        width: 260px;
+        height: 38px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        border: none;
+        margin: 5px;
+        padding: 5px;
+    }
+    .form-section .selection{
+        width: 532px;
+    }
+    .calc-btn{
+        margin: 35px 0 0 10px;
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        padding: 16px 40px 16px 40px;
+        border: none;
+        font-size: 1rem;
+        font-weight: 600;
+    }
 
 /* meet team styles  */
 .meet-team{
@@ -302,7 +383,7 @@
         height: 20px;
         filter: invert(100%);     
     }
-    .banner{
+    .banner, .calculator-section{
         flex-direction: column;
         margin: 20px;
     }
@@ -421,6 +502,8 @@
         margin-bottom: 30px;
         width: 240px;     
     }
+
+    /* team section style  */
     .meet-team{
         margin: 40px 20px;
     }
@@ -445,5 +528,53 @@
     }
     .horizontal-line{
         width: 270px;
+    }
+
+    .bmi-calc{
+        margin-top: 30px;
+    }
+    .bmi-text h3{
+        font-size: 2rem;
+    }
+    .bmi-text p{
+        width: 280px;
+        margin-left: 20px;
+    }
+    .calculator-section{
+        margin-top: 30px;
+        padding: 34px 15px;
+    }
+    .calculator-section h4{
+        font-size: 1rem;
+        font-weight: 900;
+    }
+    .calculator-section table{
+        margin-top: 20px;
+        border-collapse: collapse;
+    }
+    .form-section h3{
+        font-size: 1rem;
+        font-weight: 900;
+        margin-top: 42px;
+        margin-bottom: 14px;
+    }
+    .form-section input{
+        width: 112px;
+        height: 25px;
+        margin: 2px;
+        padding: 3px;
+    }
+    .form-section select{
+        width: 116px;
+        height: 25px;
+        margin: 2px;
+        padding: 3px;
+    }
+    .form-section .selection{
+        width: 240px;
+        margin: 2px;
+    }
+    .calc-btn{
+        padding: 10px 40px 10px 40px;
     }
 }
